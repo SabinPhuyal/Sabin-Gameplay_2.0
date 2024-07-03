@@ -1,0 +1,11 @@
+body{
+    background-image : linear-gradient(
+        purple,
+        pink,
+        turquoise,
+        lavender
+    );
+
+    color : black;
+    font-family : cursive;
+}
