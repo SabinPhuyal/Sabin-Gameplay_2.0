@@ -1,0 +1,54 @@
+body{
+    background-image : url("banner.png");
+    background-size : cover;
+    max-width : 100%;
+    max-height: 100%;
+}
+
+#aaloader_bg{
+    background-color : red;
+    position : absolute;
+    left : 45%;
+    top : 40%;
+    width : 160px;
+    height : 160px;
+    border-radius : 100%;
+    animation : spinnn 2s linear infinite;
+    background : 
+    conic-gradient(yellow,pink,blue,green,yellow,pink,blue,green,yellow,pink,blue,green,yellow,pink,blue,green,yellow,pink,blue,green)
+}
+
+@keyframes spinnn{
+    0%{
+        transform : rotate(0deg)
+    }
+    100%{
+        transform : rotate(360deg)
+    }
+}
+
+#aaloader_logo{
+    background-color: red;
+    background-image : url(logo.png);
+    background-size : cover;
+    position : absolute;
+    left : 6.5%;
+    top : 6.5%;
+    width : 140px;
+    height : 140px;
+    border-radius : 100%;
+    animation : spin12 2s linear infinite;
+    max-width : 140px;
+    max-height : 140px;
+}
+
+@keyframes spin12{
+    0%{
+        transform : rotate(-360deg)
+    }
+    0%{
+        transform : rotate(360deg)
+    }
+}
+
+

@@ -1,0 +1,52 @@
+body{
+    background-image : url("banner.png");
+    max-width : 100%;
+    max-height: 100%;
+    background-size : cover;
+}
+
+#txt{
+    position : absolute;
+    left : 40%;
+    top : 50%;
+    font-size : 40px;
+    font-family : cursive;
+    -webkit-text-stroke: 2.5px white;
+    animation : chn 5s linear infinite;
+}
+
+@keyframes chn{
+    0%{
+        color : pink;
+        -webkit-text-stroke: 2.5px black;
+    }
+
+        20%{
+        color : black;
+        -webkit-text-stroke: 2.5px pink;
+    }
+
+        40%{
+        color : turquoise;
+        -webkit-text-stroke: 2.5px yellow;
+    }
+
+        60%{
+        color : yellow;
+        -webkit-text-stroke: 2.5px lavender;
+
+    }
+
+        80%{
+        color : skyblue;
+        -webkit-text-stroke: 2.5px grey;
+        }
+
+        100%{
+        color : skyblue;
+        -webkit-text-stroke: 2.5px grey;
+
+}
+}
+
+
